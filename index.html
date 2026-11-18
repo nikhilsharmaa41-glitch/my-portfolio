@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nikhil Sharma — BCA student & aspiring software developer</title>
+  <meta name="description"
+    content="Nikhil Sharma is a BCA student in Mumbai learning web development by building real projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('js')</script>
+</head>
+
+<body>
+  <div id="bar" aria-hidden="true"></div>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="logo" href="#top" aria-label="Back to top">NS</a> <!-- EDIT: your initials -->
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#work">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme" aria-label="Switch between light and dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+  <main id="top">
+    <div class="wrap hero">
+      <p class="where">Mumbai, India · BCA student</p> <!-- EDIT -->
+      <h1>Nikhil<br><span>Sharma</span></h1> <!-- EDIT: first name / last name -->
+      <p class="lead">I’m learning to build software for the web, one real project at a time.</p> <!-- EDIT -->
+      <a class="btn p" href="#work">See my projects</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+    <div class="checks" aria-hidden="true"></div>
+    <section id="about">
+      <div class="wrap">
+        <h2>About me</h2>
+        <div class="about-row">
+          <img class="photo" src="photo.jpg" alt="Nikhil Sharma" width="300" height="375">
+          <div class="about">
+            <p>I’m a Bachelor of Computer Applications student in Mumbai, aiming for a career as a software developer. I
+              focus on web development, and I learn fastest by building things, getting them wrong, and fixing them.</p>
+            <p>Right now I’m turning what I study in class into projects I can put online, and getting comfortable with
+              the tools real teams use.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS: add or remove <span class="chip"> items. Use class="chip learn" for things you're still learning -->
+    <section id="skills">
+      <div class="wrap">
+        <h2>What I work with</h2>
+        <div class="group">
+          <h3>Languages</h3>
+          <div class="chips">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span
+              class="chip">Python</span><span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="group">
+          <h3>Tools</h3>
+          <div class="chips">
+            <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span><span
+              class="chip">MySQL</span>
+          </div>
+        </div>
+        <div class="group">
+          <h3>Currently learning</h3>
+          <div class="chips">
+            <span class="chip learn">TypeScript</span><span class="chip learn">Next.js</span><span
+              class="chip learn">Data
+              structures</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY: copy a whole <li> to add another entry -->
+    <section id="journey">
+      <div class="wrap">
+        <h2>My journey</h2>
+        <ol class="tl">
+          <li><span class="when">2026 – present</span>
+            <h3>BCA, Mumbai</h3>
+            <p>Studying programming, databases, and software engineering fundamentals.</p>
+          </li>
+          <li><span class="when">Ongoing</span>
+            <h3>Self-directed web development</h3>
+            <p>Building projects outside class to practise front-end and back-end skills.</p>
+          </li>
+          <li><span class="when">Next</span>
+            <h3>Looking for an internship</h3>
+            <p>Open to a first role where I can contribute, learn from a team, and ship real features.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROJECTS: copy a whole <details> block to add another project -->
+    <section id="work">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="projects">
+
+          <details>
+            <summary>
+              <h3>This portfolio website</h3>
+              <span class="pitch">The site you’re looking at, built from scratch.</span>
+              <span class="plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="more">
+              <ul>
+                <li>Responsive layout that works on phones and desktops</li>
+                <li>Light and dark mode, smooth scrolling and scroll animations</li>
+                <li>Hosted live on Netlify</li>
+              </ul>
+              <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+              <a href="https://github.com/nikhilsharmaa41-glitch">View my GitHub</a>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              <h3>Next up: Task Manager app</h3>
+              <span class="pitch">What I’m building next to practise JavaScript.</span>
+              <span class="plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="more">
+              <p>I’m learning to add, edit and delete tasks and save them in the browser. I’ll add it here when it’s
+                finished.</p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Let’s talk</h2>
+        <p class="big"><a href="mailto:nikhilsharmaa41@gmail.com">nikhilsharmaa41@gmail.com</a></p>
+        <p>I’m open to internships, collaborations and advice. Email is the fastest way to reach me.</p>
+        <a class="btn" href="https://github.com/nikhilsharmaa41-glitch">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/nikhil-sharma-40a39243b/">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Nikhil Sharma · Mumbai, India</div>
+  </footer> <!-- EDIT -->
+
+  <!-- Smooth-scroll library, then your script -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
